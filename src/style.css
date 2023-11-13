@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 0px;
+    height: 0px;
+}
+
+h4{
+    color: #5E5873 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    margin: 0 0 14px ;
+    font-weight: 500;
+}
+
+label{
+    color: #5E5873;
+    margin: 3px;
+}
+
+.main{
+    background-image: url(/img/Frame.svg),    
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(125.92deg, #020C59 9.05%, #04115D 28.03%, #091F6A 49.85%, #11367F 72.97%, #1A4F96 100%);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.content_body{
+    padding: 7px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form{
+    margin: 21px 0px ;
+}
+
+.container{
+    padding: 21px;
+    background-color: #fff;
+    width: 400px;
+    height: 431px;    
+}
+.logo_login{
+    text-align: center;
+}
+
+.frm_login {
+    width: 358px;
+    height: 61px;
+}
