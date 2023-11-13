@@ -57,3 +57,12 @@ label{
     width: 358px;
     height: 61px;
 }
+
+label{
+    display: block;
+    margin: 0 0 3px 0 ;
+}
+
+.email_login{
+    display: block;
+}
