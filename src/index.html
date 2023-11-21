@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login_Form</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <div class="main">
-            <div class="content_body">
-                <div class="login_form">
-                <div class="container">
-                    <div class="logo_login">
-                        <a class="img_logo_login">
-                            <img src="/img/ezCloud3.svg" alt="">
-                        </a>
-                        <h4>
-                            Login
-                        </h4>
-                    </div>
-
-                    <form class="frm_login">
-                        <div class="ip_login">
-                            <label for="">
-                                Email
-                            </label>
-                            <input type="text" name="" id="" value="Email">
-                        </div>
-                            <div class="ip_login">
-                                <div class="content_ip_pw">
-                                <label for="">
-                                    Password
-                                </label>
-
-                                <a href="">Forgot Password</a>
-                            </div>
-
-                            <div class="input_pw">
-                                <input type="" name="" id="" value="Password">
-                                <span>
-                                    <img src="/img/show.png" alt="">
-                                </span>
-                            </div>
-                           
-                        </div>
-                        <div class="remember_login">
-                            <div class="form_check">
-                                <input type="checkbox">
-                                <label for="">Remember my login</label>
-                            </div>
-                        </div>
-                        <button class="btn_login">
-                            Login
-                        </button>
-                        <p>Register</p>
-                    </form>
-                </div>
+      <div class="content_body">
+        <div class="login_form">
+          <div class="container">
+            <div class="logo_login">
+              <a class="img_logo_login">
+                <img src="/img/ezCloud3.svg" alt="" />
+              </a>
+              <h4>Login</h4>
             </div>
+
+            <form class="frm_login">
+              <div class="content_ip_login">
+                <label for=""> Email </label>
+                <input type="text" name="" id="" value="Email" />
+              </div>
+              <div class="content_ip_login">
+                <div class="element_lb_pw">
+                  <label for=""> Password </label>
+                  <a href="">Forgot Password</a>
+                </div>
+
+                <!-- <div class="element_input_pw">
+                  <input
+                    class="input"
+                    type=""
+                    name=""
+                    id=""
+                    value="Password"
+                    src="/img/show.png"
+                  />
+                  <img class="element_img_hidden" src="/img/show.png" alt="">
+                </div> -->
+
+                <div class="input-group">
+                  <input class="tag_ip_pw" type="text" value="Password" />
+                  <img class="element_img_hidden" src="/img/show.png" alt="" />
+                </div>
+              </div>
+              <div class="content_remember">
+                <label class="remember_lb" for="">
+                  <input class="input_cbx_lg" type="checkbox" />
+                  Remember my login
+                </label>
+              </div>
+              <div>
+                <button class="btn_login">Login</button>
+              </div>
+              <p class="lg_register">
+                <a href="https://www.google.com.vn/?hl=vi">Register</a>
+              </p>
+            </form>
+          </div>
+          <div class="subnav">
+            <button class="subnav_btn">English </button>
+            <div class="subnav_content">
+              <a href="">Tiếng việt</a>
+              <a href="">Tiếng anh</a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
