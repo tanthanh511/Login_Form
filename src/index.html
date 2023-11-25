@@ -21,7 +21,7 @@
             <form class="frm_login">
               <div class="content_ip_login">
                 <label for=""> Email </label>
-                <input type="text" name="" id="" value="Email" />
+                <input class="abc" type="text" name="" id="" placeholder="Email" autofocus/>
               </div>
               <div class="content_ip_login">
                 <div class="element_lb_pw">
@@ -42,7 +42,7 @@
                 </div> -->
 
                 <div class="input-group">
-                  <input class="tag_ip_pw" type="text" value="Password" />
+                  <input class="abc" type="password" placeholder="Password"  />
                   <img class="element_img_hidden" src="/img/show.png" alt="" />
                 </div>
               </div>
@@ -61,13 +61,25 @@
             </form>
           </div>
           <div class="subnav">
-            <button class="subnav_btn">English </button>
-            <div class="subnav_content">
-              <a href="">Tiếng việt</a>
-              <a href="">Tiếng anh</a>
+            <div class="div_left">
+              <button class="subnav_btn">
+                English <img class="down_languge" src="/img/download.svg" alt="" />
+                <!-- <a class="subnav-a">Help - Terms and Conditions</a> -->
+                <div class="subnav_content">
+                  <ul>
+                  <li class="dropdown-item"><a  href="">Tiếng Việt</a></li>
+                  <li class="dropdown-item"><a  href="">Tiếng Anh</a></li>
+                </ul>
+
+                </div>
+              </button>
+            </div>
+            <div class="div_right">
+              <a class="subnav_a" href="#">Help - Terms and Conditions</a>
             </div>
           </div>
         </div>
+       <!-- <div class="bcd"><p>Copyright © 2013 - 2022 ezCloud Global Technology</p> </div> -->
       </div>
     </div>
   </body>
